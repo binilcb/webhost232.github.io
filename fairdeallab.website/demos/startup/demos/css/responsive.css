@@ -1,0 +1,87 @@
+/************************************************
+[Responsive Stylesheet]
+*************************************************/
+
+@media (min-width: 1200px) {}
+
+
+/*===============Large Display==============*/
+
+@media only screen and (max-width: 1199px) {
+}
+
+
+/*==================Tab Screen==============*/
+
+@media only screen and (max-width: 991px) {
+    .presentation_section h1.presentation_title {
+        font-size: 50px;
+        line-height: 60px;
+        margin: 110px 0;
+    }
+    .presentation_section .presentation_wrapper .single_item {
+        margin-bottom: 50px;
+    }
+    footer h1.footer_title {
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .purchase.text-center {
+        width: 300px;
+    }
+    .single_item {
+        border-radius: 4px;
+        flex: 0 0 330px;
+    }
+    .presentation_section .presentation_wrapper .single_item:nth-child(1),
+    .presentation_section .presentation_wrapper .single_item:nth-child(3) {
+        margin-top: 0;
+    }
+}
+
+
+/*==================Medium Mobile Screen==============*/
+
+@media only screen and (max-width: 767px) {
+    .presentation_section h1.presentation_title {
+        font-size: 30px;
+        line-height: 34px;
+        margin: 70px 0;
+    }
+
+    .presentation_section .single_item .title {
+        text-align: center;
+    }
+    footer {
+        padding: 70px 0;
+    }
+    footer h1.footer_title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .purchase.text-center {
+        height: 55px;
+        line-height: 57px;
+        margin: 40px auto 0;
+        width: 270px;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .presentation_section h1.presentation_title {
+        font-size: 18px;
+        line-height: 23px;
+        margin: 50px 0;
+    }
+    footer h1.footer_title {
+        font-size: 21px;
+        line-height: 28px;
+    }
+    .purchase.text-center {
+        font-size: 13px;
+        height: 45px;
+        line-height: 47px;
+        margin: 40px auto 0;
+        width: 220px;
+    }
+}
